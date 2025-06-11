@@ -16,7 +16,8 @@ body{
 }
 
 .layar-dalam {
-    width: 1000px;
+    max-width: 1000px;
+    width: 90%;
     margin: auto;
 }
 
@@ -91,6 +92,7 @@ header{
     width: 100%;
     overflow: hidden;
     z-index: 2;
+    margin-top: 60px;
 }
 
 header video{
@@ -390,4 +392,12 @@ section.abu-abu{
       display: flex;
     }
   }
+
+@media (max-width: 768px) {
+    header {
+      height: auto;
+      min-height: 100vh;
+      padding: 40px 0;
+    }
+}
   
