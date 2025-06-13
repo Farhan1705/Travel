@@ -84,7 +84,6 @@ nav ul li a:hover{
     text-decoration: underline;
 }
 
-/*pengaturan header*/
 header{
     position: relative;
     height: 100vh;
@@ -324,7 +323,7 @@ section.abu-abu{
 @media screen and (max-width: 600px) {
     .background-contact,
     .background-destination {
-      object-position: center top; /* Geser posisi gambar agar bagian penting tetap terlihat */
+      object-position: center top; 
     }
 }
   
